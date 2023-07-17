@@ -1,9 +1,9 @@
-import React from 'react';
+import { Posts } from "./components/Posts";
 
 const App = () => {
     return (
-        <div>
-          ggggggg
+        <div className="App">
+            <Posts/>
         </div>
     );
 };

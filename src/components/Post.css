@@ -1,0 +1,16 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 100%;
+    align-items: center;
+}
+.postId{
+    text-align: center;
+}
+.postTitle{
+    text-align: center;
+}
+.postDetal{
+    text-align: center;
+}

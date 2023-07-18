@@ -1,9 +1,9 @@
-import React from 'react';
+import {Launches} from "./components/Launches";
 
 const App = () => {
     return (
-        <div>
-          ggggggg
+        <div className="App">
+            <Launches/>
         </div>
     );
 };

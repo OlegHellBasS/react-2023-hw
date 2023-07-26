@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+import {UsersComponent} from "./UsersComponent/UsersComponent";
+import {Posts} from "./Posts/Posts";
 
 const App = () => {
+    const [userId, setUserId] = useState(null);
     return (
         <div>
-          ggggggg
+          <UsersComponent setUserId={setUserId}/>
+            {!! userId && <Posts userId={userId}/>}
         </div>
     );
 };
